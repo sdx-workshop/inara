@@ -1,0 +1,28 @@
+csl: apa.csl
+
+metadata:
+  joss_resource_url: 'N/A'
+  journal:
+    abbrev-title: 'SDX'
+    alias: 'sdx'
+    url: 'https://sdx-workshop.github.io'
+    doi: ''
+    title: 'SDX Workshop 2023'
+    publisher-name: ''
+    issn: ''
+    eissn: ''
+
+  link-citations: true
+
+  copyright:
+    statement: >-
+      Authors of papers retain copyright and release the work under a Creative Commons Attribution 4.0 International License (CC BY 4.0)
+    holder: The article authors
+    year: 2023
+    type: open-access
+    link: https://creativecommons.org/licenses/by/4.0/
+    text: >-
+      Authors of papers retain copyright and release the work under a Creative Commons Attribution 4.0 International License (CC BY 4.0) #magic___^_^___line
+  aas_logo_path: 'joss/aas-logo.png'
+  europar_logo_path: 'joss/europar-logo.png'
+  logo_path: 'sdx/logo.png'

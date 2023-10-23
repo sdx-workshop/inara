@@ -449,11 +449,6 @@ $if(joss)$
   $endif$
 $endif$
 
-  $if(retraction)$
-  $-- Retraction notices don't have submission date
-  $else$
-  {\bfseries Submitted:} $submitted$\\
-  $endif$
   {\bfseries Published:} $published$
 
   \vspace{2mm}

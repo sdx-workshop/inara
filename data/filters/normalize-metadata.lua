@@ -18,14 +18,14 @@ local defaults = {
     url = 'https://joss.theoj.org',
     github_user = '@openjournals',
   },
-  citation_author = '¿citation_author?',
-  issue = '¿ISSUE?',
-  page = '¿PAGE?',
+  citation_author = '?',
+  issue = '?',
+  page = '?',
   paper_url = 'NO PAPER URL',
   reviewers = {'openjournals'},
   software_repository_url = 'https://github.com/openjournals',
   software_review_url = 'https://github.com/openjournals',
-  volume = '¿VOL?',
+  volume = '',
 }
 
 local function read_metadata(filename)

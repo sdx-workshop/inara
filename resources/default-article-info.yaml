@@ -15,4 +15,4 @@ metadata:
   doi_batch_id: 'N/A'
   formatted_doi: 'DOI unavailable'
   paper_url: 'NO PAPER URL'
-  draft: true
+  draft: false

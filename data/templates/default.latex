@@ -27,9 +27,6 @@ $endif$
     pdfpubtype={journal},
     pdfvolumenum={$volume$},
     pdfissuenum={$issue$},
-$if(article.doi)$
-    pdfdoi={$article.doi$},
-$endif$
 $if(author-meta)$
     pdfcopyright={Copyright (c) $year$, $author-meta$},
 $endif$
@@ -426,22 +423,7 @@ $endif$
   %\hrule
   \sffamily\small
 
-  {\bfseries DOI:} \href{https://doi.org/$article.doi$}{\color{linky}{$article.doi$}}
-
   \vspace{2mm}
-  $if(retraction)$
-  $-- Retraction notices don't show Software info
-  $else$
-  {\bfseries Software}
-  \begin{itemize}
-    \setlength\itemsep{0em}
-    \item \href{$software_review_url$}{\color{linky}{Review}} \ExternalLink
-    \item \href{$software_repository_url$}{\color{linky}{Repository}} \ExternalLink
-    \item \href{https://doi.org/$archive_doi$}{\color{linky}{Archive}} \ExternalLink
-  \end{itemize}
-
-  \vspace{2mm}
-  $endif$
 
 $if(joss)$
   $if(retraction)$

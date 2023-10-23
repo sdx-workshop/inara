@@ -42,7 +42,7 @@ function Meta (meta)
         ['submitted'] = meta.submitted,
         ['published'] = meta.published,
         ['editor'] = meta.editor.name,
-        ['url'] = 'https://doi.org/' .. stringify(meta.article.doi),
+        ['url'] = '',
         ['doi'] = meta.doi or meta.article.doi
       }
     },

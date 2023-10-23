@@ -1548,9 +1548,6 @@
   </macro>
   <macro name="access">
     <choose>
-      <if variable="DOI" match="any">
-        <text variable="DOI" prefix="https://doi.org/"/>
-      </if>
       <else-if variable="ISBN">
         <text variable="ISBN" prefix="ISBN:&#160;"/>
       </else-if>
@@ -1706,15 +1703,6 @@
       <if type="legal_case">
         <group prefix="(" suffix=")" delimiter=" ">
           <text variable="authority"/>
-          <choose>
-            <if variable="container-title" match="any">
-              <!-- Print only year for cases published in reporters-->
-              <date variable="issued" form="numeric" date-parts="year"/>
-            </if>
-            <else>
-              <date variable="issued" form="text"/>
-            </else>
-          </choose>
         </group>
       </if>
       <else-if type="bill legislation" match="any">

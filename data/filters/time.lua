@@ -1,4 +1,4 @@
-local sample_date = '1970-01-01'
+local sample_date = '2023-11-04'
 
 local function format_date (date_table)
   local date_format = '%d %B %Y'
